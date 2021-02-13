@@ -609,7 +609,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 } //ORIGINAL ENDER 3
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 143 } //ORIGINAL ENDER 3
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -780,7 +780,7 @@
  *    (0,0)
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER -47  // X offset: -left  +right  [of the nozzle] Customized DBP
-#define Y_PROBE_OFFSET_FROM_EXTRUDER -8  // Y offset: -front +behind [the nozzle] Customized DBP
+#define Y_PROBE_OFFSET_FROM_EXTRUDER -7  // Y offset: -front +behind [the nozzle] Customized DBP
 #define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle] Customized DBP
 
 // Certain types of probes need to stay away from edges
